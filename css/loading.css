@@ -14,7 +14,7 @@ h1{margin:0;padding:0}
     
 }
 #loading{
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -38,22 +38,28 @@ h1{margin:0;padding:0}
 }
 #block1{
   animation-name: round;
-  background-color: #BBD738;
+  background-color: #F5BD00;
+  animation-delay: 0ms;
+  z-index:1004;	
+
 }
 #block2{
   animation-name: round;
-  background-color: #EAA4C6;
+  background-color: #BBD738;
   animation-delay: 500ms;
+  z-index:1003;
 }
 #block3{
   animation-name: round;
-  background-color: #2DB8B6;
+  background-color:  #2DB8B6;
   animation-delay: 1000ms;
+  z-index:1002;
 }
 #block4{
   animation-name: round;
-  background-color: #F5BD00;
+  background-color: #EAA4C6;
   animation-delay:1500ms;
+  z-index:1001;
 }
 
 @keyframes round{
