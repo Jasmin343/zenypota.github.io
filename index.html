@@ -5,15 +5,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
-    <meta name="description" content="BitZenyで買い物や投げ銭などができるポータルサイトです。現在開発中です。お楽しみに!">
-    <meta name="keywords" content="BitZeny,Portal,Wallet,ゼニー,仮想通貨,ビットゼニー,ポータル,ウォレット,オンラインウォレット">
+    <meta name="description" content="BitZenyPlusで買い物や投げ銭などができるポータルサイトです。現在開発中です。お楽しみに!">
+    <meta name="keywords" content="BitZeny,BitZenyPlus,Portal,Wallet,ゼニー,仮想通貨,ビットゼニー,ポータル,ウォレット,オンラインウォレット">
     <title>ゼニポタ</title>
 
-    <!-- CSS  -->
+    <!-- Loading CSS -->
+    <link rel="preload" href="css/loading.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="css/loading.css">
+    </noscript>
 
+    <!-- Font icon -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/solid.css" integrity="sha384-TbilV5Lbhlwdyc4RuIV/JhD8NR+BfMrvz4BL5QFa2we1hQu6wvREr3v6XSRfCTRp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <!-- Main CSS -->
     <link rel="preload" href="min/plugin-min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" href="min/plugin-min.css">
@@ -24,14 +31,7 @@
         <link rel="stylesheet" href="min/custom-min.css">
     </noscript>
 
-    <!-- <link rel="stylesheet" href="css/materialize.css"> -->
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-
-    <link rel="preload" href="css/loading.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" href="css/loading.css">
-    </noscript>
 
     <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
@@ -43,8 +43,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
     </noscript>
 
+    <!-- Favicon -->
     <link rel="shortcut icon" href="https://zenypota.net/favicon.ico" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body id="top" class="scrollspy">
@@ -76,7 +76,7 @@
                     </a>
                     <ul class="right hide-on-med-and-down">
                         <li>
-                            <a href="#service">サービス</a>
+                            <a href="#service">サービス概要</a>
                         </li>
                         <li>
                             <a href="#team">運営チーム</a>
@@ -95,10 +95,11 @@
         <div class="container">
             <h1 class="text_h center header cd-headline letters type">
                 <span class="cd-words-wrapper waiting">
-                    <b class="is-visible">Bitzenyを貯める</b>
-                    <b>商品を出品する</b>
-                    <b>イラストを投稿する</b>
-                    <b>文章を執筆する</b>
+                    <b class="is-visible">BitZenyPlus</b>
+                    <b>商品を出品する!</b>
+                    <b>イラストを投稿する!</b>
+                    <b>ブログを執筆する!</b>
+                    <b>使い方は無限大!</b>
                 </span>
             </h1>
         </div>
@@ -109,37 +110,38 @@
         <div class="container">
             <div class="row">
                 <div class="col s12">
-                    <h2 class="center header text_h2"> ゼニポタはあらゆる暗号通貨のための
-                    <br>
-                    <span class="span_h2"> 革新的 </span> なサービスです。</h2>
+                    <h3 class="center header text_h2">
+                        ゼニポタは<br>暗号通貨のための<br>
+                        <span class="span_h2"> 革新的 </span> なサービスです。
+                    </h3>
                 </div>
 
                 <div class="col s12 m3 l3">
                     <div class="center promo promo-example">
                         <i class="fas fa-wallet" style="margin-top: 32px; margin-bottom: 32px;"></i>
                         <h5 class="promo-caption">オンラインウォレット</h5>
-                        <p class="light center">ゼニポタはオンラインウォレット機能を備えています。 お預かりしたコインは支払い、投げ銭などに使用できます。</p>
+                        <p class="light center">ゼニポタはオンラインウォレット機能を備えています。</p>
                     </div>
                 </div>
                 <div class="col s12 m3 l3">
                     <div class="center promo promo-example">
                         <i class="fas fa-shopping-cart" style="margin-top: 32px; margin-bottom: 32px;"></i>
-                        <h5 class="promo-caption">フリーマーケット</h5>
-                        <p class="light center">BitZenyを使った買い物ができるサービス「ゼニマ(仮称)」を予定しています。 もちろん支払いはゼニポタのウォレットを使用して安全に決済できます。</p>
+                        <h5 class="promo-caption">ゼニマ</h5>
+                        <p class="light center">BitZenyPlusを使った買い物ができるサービスのローンチを予定しています。</p>
                     </div>
                 </div>
                 <div class="col s12 m3 l3">
                     <div class="center promo promo-example">
                         <i class="fas fa-image" style="margin-top: 32px; margin-bottom: 32px;"></i>
-                        <h5 class="promo-caption">イラスト掲示板</h5>
-                        <p class="light center">自分で画像・イラストを投稿することができね投げ銭を受け取ることができます。お題を投稿することもできます。</p>
+                        <h5 class="promo-caption">イラスト</h5>
+                        <p class="light center">イラストを投稿することができ、投げ銭を受け取ることができます。</p>
                     </div>
                 </div>
                 <div class="col s12 m3 l3">
                     <div class="center promo promo-example">
                         <i class="fas fa-edit" style="margin-top: 32px; margin-bottom: 32px;"></i>
-                        <h5 class="promo-caption">ミニブログ</h5>
-                        <p class="light center">自分で好きな記事を投稿して投げ銭をもらったり、情報を共有したりすることができます。</p>
+                        <h5 class="promo-caption">ブログ</h5>
+                        <p class="light center">好きな記事を投稿して投げ銭をもらったり、情報を共有したりすることができます。</p>
                     </div>
                 </div>
             </div>
@@ -150,7 +152,6 @@
     <picture>
         <div class="parallax-container">
             <div class="parallax">
-                <source type="image/webp" srcset="img/parallax1.webp" />
                 <img src="img/parallax1.png">
             </div>
         </div>
@@ -174,35 +175,12 @@
                                 <br/>
                                 <small>
                                     <em>
-                                        <a class="red-text text-darken-1" href="#">Project leader</a>
+                                        <p class="red-text text-darken-1" href="#">Project leader</p>
                                     </em>
                                 </small>
                             </span>
                             <p>
-                                <a href="https://twitter.com/Fujiwaraizuho">Twitter</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m3">
-                    <div class="card card-avatar">
-                        <div class="waves-effect waves-block waves-light">
-                            <picture>
-                                <source type="image/webp" srcset="img/team-2.webp">
-                                <img class="activator" src="img/team-2.jpg" style="margin-top: 2em">
-                            </picture>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">メイプルらぼ
-                                <br/>
-                                <small>
-                                    <em>
-                                        <a class="red-text text-darken-1" href="#">Designer</a>
-                                    </em>
-                                </small>
-                            </span>
-                            <p>
-                                <a href="https://twitter.com/MaipleLab">Twitter</a>
+                                <a href="https://twitter.com/Fujiwaraizuho" target="_blank">Twitter</a>
                             </p>
                         </div>
                     </div>
@@ -220,12 +198,35 @@
                                 <br/>
                                 <small>
                                     <em>
-                                        <a class="red-text text-darken-1" href="#">Cat</a>
+                                        <p class="red-text text-darken-1" id="cat" href="#">Cat</p>
                                     </em>
                                 </small>
                             </span>
                             <p>
-                                <a href="https://twitter.com/onokatio_">Twitter</a>
+                                <a href="https://twitter.com/onokatio_" target="_blank">Twitter</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card card-avatar">
+                        <div class="waves-effect waves-block waves-light">
+                            <picture>
+                                <source type="image/webp" srcset="img/team-2.webp">
+                                <img class="activator" src="img/team-2.jpg" style="margin-top: 2em">
+                            </picture>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">メイプルらぼ
+                                <br/>
+                                <small>
+                                    <em>
+                                        <p class="red-text text-darken-1" href="#">Web Designer</p>
+                                    </em>
+                                </small>
+                            </span>
+                            <p>
+                                <a href="https://twitter.com/MaipleLab" target="_blank">Twitter</a>
                             </p>
                         </div>
                     </div>
@@ -243,35 +244,12 @@
                                 <br/>
                                 <small>
                                     <em>
-                                        <a class="red-text text-darken-1" href="#">Web Designer</a>
+                                        <p class="red-text text-darken-1" href="#">Web Designer</p>
                                     </em>
                                 </small>
                             </span>
                             <p>
-                                <a href="https://twitter.com/moscwa_">Twitter</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m3">
-                    <div class="card card-avatar">
-                        <div class="waves-effect waves-block waves-light">
-                            <picture>
-                                <source type="image/webp" srcset="img/team-6.webp">
-                                <img class="activator" src="img/team-6.jpg" style="margin-top: 2em">
-                            </picture>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">青木一真
-                                <br/>
-                                <small>
-                                    <em>
-                                        <a class="red-text text-darken-1" href="#">Progect Manager</a>
-                                    </em>
-                                </small>
-                            </span>
-                            <p>
-                                <a href="https://twitter.com/kiko_fintech">Twitter</a>
+                                <a href="https://twitter.com/moscwa_" target="_blank">Twitter</a>
                             </p>
                         </div>
                     </div>
@@ -289,12 +267,35 @@
                                 <br/>
                                 <small>
                                     <em>
-                                        <a class="red-text text-darken-1" href="#">Engineer</a>
+                                        <p class="red-text text-darken-1" href="#">Engineer</p>
                                     </em>
                                 </small>
                             </span>
                             <p>
-                                <a href="https://twitter.com/RyuProgramer">Twitter</a>
+                                <a href="https://twitter.com/RyuProgramer" target="_blank">Twitter</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card card-avatar">
+                        <div class="waves-effect waves-block waves-light">
+                            <picture>
+                                <source type="image/webp" srcset="img/team-6.webp">
+                                <img class="activator" src="img/team-6.jpg" style="margin-top: 2em">
+                            </picture>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">青木一真
+                                <br/>
+                                <small>
+                                    <em>
+                                        <p class="red-text text-darken-1" href="#">Progect Manager</p>
+                                    </em>
+                                </small>
+                            </span>
+                            <p>
+                                <a href="https://twitter.com/kiko_fintech" target="_blank">Twitter</a>
                             </p>
                         </div>
                     </div>
@@ -344,6 +345,16 @@
             }, 1500)
 
         }
+    </script>
+
+    <script>
+        $(function() {
+            $('#cat').hover(function() {
+                $(this).text('Blockchain Engineer');
+            }, function() {
+                $(this).text('Cat');
+            });
+        });
     </script>
 
     <script>
