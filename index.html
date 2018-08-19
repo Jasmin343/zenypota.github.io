@@ -16,8 +16,10 @@
     </noscript>
 
     <!-- Font icon -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/solid.css" integrity="sha384-TbilV5Lbhlwdyc4RuIV/JhD8NR+BfMrvz4BL5QFa2we1hQu6wvREr3v6XSRfCTRp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/solid.css" integrity="sha384-TbilV5Lbhlwdyc4RuIV/JhD8NR+BfMrvz4BL5QFa2we1hQu6wvREr3v6XSRfCTRp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Main CSS -->
@@ -45,12 +47,12 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="https://zenypota.net/favicon.ico" />
-    
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-98485251-8"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'UA-98485251-8');
@@ -129,7 +131,7 @@
                 <div class="col s12 m3 l3">
                     <div class="center promo promo-example">
                         <i class="fas fa-wallet" style="margin-top: 32px; margin-bottom: 32px;"></i>
-                        <h5 class="promo-caption">オンラインウォレット</h5>
+                        <h5 class="promo-caption">ウォレット</h5>
                         <p class="light center">ゼニポタはオンラインウォレット機能を備えています。</p>
                     </div>
                 </div>
@@ -185,7 +187,7 @@
                                 <br/>
                                 <small>
                                     <em>
-                                        <p class="red-text text-darken-1" href="#">Project leader</p>
+                                        <p class="red-text text-darken-1" href="#">Project Leader</p>
                                     </em>
                                 </small>
                             </span>
@@ -277,7 +279,7 @@
                                 <br/>
                                 <small>
                                     <em>
-                                        <p class="red-text text-darken-1" href="#">Engineer</p>
+                                        <p class="red-text text-darken-1" href="#">Front Engineer</p>
                                     </em>
                                 </small>
                             </span>
@@ -300,7 +302,7 @@
                                 <br/>
                                 <small>
                                     <em>
-                                        <p class="red-text text-darken-1" href="#">Progect Manager</p>
+                                        <p class="red-text text-darken-1" href="#">Project Manager</p>
                                     </em>
                                 </small>
                             </span>
@@ -358,10 +360,10 @@
     </script>
 
     <script>
-        $(function() {
-            $('#cat').hover(function() {
+        $(function () {
+            $('#cat').hover(function () {
                 $(this).text('Blockchain Engineer');
-            }, function() {
+            }, function () {
                 $(this).text('Cat');
             });
         });
@@ -371,7 +373,7 @@
         /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
         (function (a) {
             if (!a.loadCSS) {
-                a.loadCSS = function () {}
+                a.loadCSS = function () { }
             }
             var b = loadCSS.relpreload = {};
             b.support = (function () {
@@ -412,7 +414,7 @@
                 for (var e = 0; e < d.length; e++) {
                     var f = d[e];
                     if (f.rel === "preload" && f.getAttribute("as") === "style" && !f.getAttribute(
-                            "data-loadcss")) {
+                        "data-loadcss")) {
                         f.setAttribute("data-loadcss", true);
                         b.bindMediaToggle(f)
                     }
