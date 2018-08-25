@@ -22,6 +22,9 @@
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <!-- Web Font 大事だから消さないで -->
+    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
+
     <!-- Main CSS -->
     <link rel="preload" href="min/plugin-min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
@@ -59,7 +62,7 @@
     </script>
 </head>
 
-<body id="top" class="scrollspy">
+<body id="top" class="scrollspy" style="font-family: 'Noto Sans Japanese';">
     <div id="out">
         <div id="loading">
             <div id="block1" class="block"></div>
@@ -107,24 +110,24 @@
         <div class="container">
             <h1 class="text_h center header cd-headline letters type">
                 <span class="cd-words-wrapper waiting">
-                    <b class="is-visible">BitZenyPlus</b>
-                    <b>商品を出品する!</b>
-                    <b>イラストを投稿する!</b>
-                    <b>ブログを執筆する!</b>
-                    <b>使い方は無限大!</b>
+                    <b class="is-visible">ゼニポタ</b>
+                    <b>BitZenyPlusを貯める</b>
+                    <b>商品を出品する</b>
+                    <b>イラストを投稿する</b>
+                    <b>ブログを執筆する</b>
                 </span>
             </h1>
         </div>
     </div>
 
     <!--Intro and service-->
-    <div id="service" class="section scrollspy">
+    <div id="service" class="section scrollspy" style="margin-bottom: 5rem" >
         <div class="container">
             <div class="row">
                 <div class="col s12">
                     <h3 class="center header text_h2">
                         ゼニポタは<br>暗号通貨のための<br>
-                        <span class="span_h2"> 革新的 </span> なサービスです。
+                        <span class="span_h2"> 革新的 </span>なサービスです。
                     </h3>
                 </div>
 
@@ -156,6 +159,49 @@
                         <p class="light center">好きな記事を投稿して投げ銭をもらったり、情報を共有したりすることができます。</p>
                     </div>
                 </div>
+
+                <!-- Progress -->
+                <h5 class="header text_b">進捗状況</h5>
+                <div class="col s12 m3 l3">
+                    <div class="center promo promo-example">
+                        <div class="progress">
+                            <div class="determinate" style="width: 0%"></div>
+                        </div>
+                        <div>
+                            <h5 class="center-align">0 %</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m3 l3">
+                    <div class="center promo promo-example">
+                        <div class="progress">
+                            <div class="determinate" style="width: 0%"></div>
+                        </div>
+                        <div>
+                            <h5 class="center-align">0 %</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m3 l3">
+                    <div class="center promo promo-example">
+                        <div class="progress">
+                            <div class="determinate" style="width: 0%"></div>
+                        </div>
+                        <div>
+                            <h5 class="center-align">0 %</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m3 l3">
+                    <div class="center promo promo-example">
+                        <div class="progress">
+                            <div class="determinate" style="width: 0%"></div>
+                        </div>
+                        <div>
+                            <h5 class="center-align">0 %</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -172,7 +218,7 @@
     <!--Team-->
     <div class="section scrollspy" id="team">
         <div class="container">
-            <h2 class="header text_b"> 運営チーム </h2>
+            <h2 class="header text_b">運営チーム</h2>
             <div class="row">
                 <div class="col s12 m3">
                     <div class="card card-avatar">
@@ -255,9 +301,7 @@
                             <span class="card-title activator grey-text text-darken-4">Moscwa
                                 <br/>
                                 <small>
-                                    <em>
-                                        <p class="red-text text-darken-1" href="#">Web Designer</p>
-                                    </em>
+                                    <p class="red-text text-darken-1" href="#">Web Designer</p>
                                 </small>
                             </span>
                             <p>
@@ -278,9 +322,7 @@
                             <span class="card-title activator grey-text text-darken-4">りゅう
                                 <br/>
                                 <small>
-                                    <em>
-                                        <p class="red-text text-darken-1" href="#">Front Engineer</p>
-                                    </em>
+                                    <p class="red-text text-darken-1" href="#">Front Engineer</p>
                                 </small>
                             </span>
                             <p>
@@ -321,7 +363,7 @@
         <div class="container">
             <div class="row">
                 <div class="col s12">
-                    <h2 class="header text_b" style="color: white;"> お問い合わせ </h2>
+                    <h2 class="header text_b" style="color: white;">お問い合わせ</h2>
                     <h3 class="center text_h2" style="color: white;">
                         <b><a href="mailto:info@zenypota.net" style="color: white">info@zenypota.net</a></b>
                     </h3>
